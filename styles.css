@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border {
+    border:1.5px solid transparent;
+}
+.border:hover {
+    border:1.5px solid white;
+}
+/** box2 **/
+.add-first {
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex ;
+    align-items: center;
+}   
+/** box3 **/
+.nav-search {
+    display: flex;
+  
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: pink;
+    justify-content: space-evenly;
+    
+}
+.search-select {
+   background-color: #f3f3f3;
+   width: 50px;
+   text-align: center;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border:none;
+   
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-input {
+    width: 100%;
+    border:none;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+     background-color: rgb(229, 176, 79);
+    border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: black;
+     
+}
+/** box4 **/
+span{
+    font-size: .85rem;
+
+}
+.nav-second {
+    font-size: 1rem;
+    font-weight: 500;
+}   
+/** box5 **/
+.nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    border-radius: 5px;
+}
+.nav-second{
+    font-size:0.85rem
+}
+.nav-first{
+    height:25px;
+
+}
+/** second pannel **/
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+
+.panel-ops p{
+    display:inline;
+    margin-left:15px;
+    
+}
+.panel-ops{
+    width: 80%;
+    font-size: .85rem   ;
+}
+.panel-deals{
+    font-size: .9rem;
+    font-weight:700;
+}
+/** third pannel-- Hero section **/
+.hero-section{
+    height:350px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+   display:flex;
+   align-items: flex-end;  
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width: 80%;
+    margin-bottom:20px;
+    margin-left: 10%;
+    
+}
+.hero-msg a{
+    color:#4226ce;
+    text-decoration: none;
+    
+}
+.hero-msg p{
+    background-color:whitesmoke;
+}
+/** shop-section **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+
+    
+
+}
+.box{
+    background-color: white;
+    width: 23%;
+    height:390px;
+    padding: 20px 0 15px;
+    margin-top:15px;
+
+
+
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-left:1rem;
+    margin-right: 1rem;
+    
+}
+.box-content p{
+    color:#4226ce;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:0.85rem;
+}
+.foot-panel2{
+    background-color:#222f3d ;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top:20px;
+    list-style: none;
+    
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color:#dddddd;
+    margin:10px;
+    text-decoration: none;
+
+}
+/** foot-panel3 **/
+.line{
+   
+    border: 0.8px solid #37475a;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.logo1{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    padding: 10px;
+    
+}
+
+.foot-panel-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #3a4553;
+    
+    
+}
+
+/* Logo */
+.footer-logo img {
+    width: 80px;
+}
+
+/* Boxes (Language & Country) */
+.footer-box {
+    color: white;
+    border: 1px solid #848688;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin:10px
+   
+}
+.foot{
+    margin-left:100px;
+}
+.flag{
+    
+        width:50px;
+        height:23px;
+    
+}
+.center
+{
+display: flex;
+align-items: center;
+
+}
+.setcon{
+    margin-right:4px
+}
+/** foot-panel4 **/
+.footer-services {
+    background-color: #0f1111;
+    color: white;
+    padding: 40px 100px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* Each box */
+.service-box {
+    font-size: 12px;
+    margin-left: 45px;
+}
+/* Title */
+.title {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+/* Description */
+.desc {
+    color: #dddddd;
+    line-height: 1.4;
+}
+
+/* Hover effect */
+.service-box:hover {
+    text-decoration: underline;
+
+}
+/** footer bottom **/
+.footer-bottom {
+    background-color: #0f1111;
+    color: #dddddd;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 12px;
+}
+
+/* Links */
+.footer-links {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #dddddd;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Copyright */
+.footer-copy {
+    font-size: 12px;
+}
+/** developer-style **/
+/* 🔥 Developer Credit */
+.developer {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #aaaaaa;
+    letter-spacing: 0.5px;
+}
+
+/* Highlight Name */
+.developer span {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/*  Hover Effect 🔥 */
+.developer span:hover {
+    color: #febd69;
+    text-shadow: 0 0 8px rgba(255, 153, 0, 0.8);
+    cursor: pointer;
+}

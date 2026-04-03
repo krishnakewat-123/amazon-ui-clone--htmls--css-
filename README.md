@@ -44,7 +44,11 @@ amazon-ui-clone/
 
 ## 📸 Preview
 
-> Add your project screenshot here for better presentation
+## 📸 Project Screenshot
+
+<p align="center">
+  <img src="images/homepage.png" width="800">
+</p>
 
 
 ---
