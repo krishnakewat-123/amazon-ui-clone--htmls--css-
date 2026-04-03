@@ -42,14 +42,13 @@ amazon-ui-clone/
 
 ---
 
-## 📸 Preview
-
 ## 📸 Project Screenshot
 
 <p align="center">
-  <img src="image/homepage.png" width="800">
+  <img src="images/header.png" width="700"><br><br>
+  <img src="images/main.png" width="700"><br><br>
+  <img src="images/footer.png" width="700">
 </p>
-
 
 ---
 
